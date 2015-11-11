@@ -3,12 +3,10 @@
 @each $color in $colors {
     $key: nth($color, 1);
     $value: nth($color, 2);
-
-    // Class
-    .color-#{$key} { color: $value; }
-    .bg-#{$key} { background-color: $value; }
+    .color-#{$key} { color: $value !important; }
+    .bg-#{$key} { background-color: $value !important; }
     .bg-hover-#{$key} {
-        background-color: rgba($value, .9);
-        &:hover { background-color: rgba($value, 1.0); }
+        background-color: rgba($value, .9) !important;
+        &:hover { background-color: rgba($value, 1.0) !important; }
     }
 }
