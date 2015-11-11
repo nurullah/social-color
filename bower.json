@@ -1,0 +1,21 @@
+{
+  "name": "social-colors",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nstek/social-colors",
+  "authors": [
+    "Nurullah Sevinçtekin <nsevinctekin@gmail.com>"
+  ],
+  "keywords": [
+    "social",
+    "media",
+    "colors"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

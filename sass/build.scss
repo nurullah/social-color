@@ -1,0 +1,14 @@
+@import "colors.scss";
+
+@each $color in $colors {
+    $key: nth($color, 1);
+    $value: nth($color, 2);
+
+    // Class
+    .color-#{$key} { color: $value; }
+    .bg-#{$key} { background-color: $value; }
+    .bg-hover-#{$key} {
+        background-color: rgba($value, .9);
+        &:hover { background-color: rgba($value, 1.0); }
+    }
+}
