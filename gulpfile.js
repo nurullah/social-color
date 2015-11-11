@@ -15,10 +15,10 @@ gulp.task('sass', function() {
 	return gulp.src(ScssFiles)
             .pipe(sass({ style: 'compressed' }))
             .pipe(autoprefix('last 15 version'))
-            .pipe(rename('social-colors.css'))
+            .pipe(rename('social-color.css'))
             .pipe(gulp.dest('dist'))
             .pipe(minifyCss())
-            .pipe(rename('social-colors.min.css'))
+            .pipe(rename('social-color.min.css'))
             .pipe(gulp.dest('dist'));
 });
 
