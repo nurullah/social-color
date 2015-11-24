@@ -248,3 +248,14 @@
   background-color: rgba(0, 126, 229, 0.9) !important; }
   .bg-hover-dropbox:hover {
     background-color: #007ee5 !important; }
+
+.color-rss {
+  color: #f26522 !important; }
+
+.bg-rss {
+  background-color: #f26522 !important; }
+
+.bg-hover-rss {
+  background-color: rgba(242, 101, 34, 0.9) !important; }
+  .bg-hover-rss:hover {
+    background-color: #f26522 !important; }
