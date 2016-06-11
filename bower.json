@@ -16,7 +16,5 @@
     "node_modules",
     "bower_components"
   ],
-  "dependencies": {
-    "social-color": "^0.0.2"
-  }
+  "dependencies": {}
 }
