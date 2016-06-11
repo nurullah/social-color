@@ -1,13 +1,13 @@
 {
   "name": "social-color",
-  "homepage": "https://github.com/nstek/social-color",
+  "homepage": "https://github.com/nsei/social-color",
   "version": "1.0.0",
-  "repository": "https://github.com/nstek/social-color.git",
+  "repository": "https://github.com/nsei/social-color.git",
   "author": {
     "name": "Nurullah Sevinçtekin"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "bower": "^1.6.5",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
